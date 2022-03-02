@@ -2,7 +2,8 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import Test from 'sub/src/api';
-
+Test();
+/* __buildVersion <- change? */
 function App() {
   const [count, setCount] = useState(0)
   
