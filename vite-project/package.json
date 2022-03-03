@@ -11,7 +11,10 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
+  "type": "module",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "@originjs/vite-plugin-commonjs": "^1.0.3",
     "@rollup/plugin-replace": "^4.0.0",
     "@types/react": "^17.0.33",

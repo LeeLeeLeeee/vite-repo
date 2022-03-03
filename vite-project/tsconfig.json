@@ -15,7 +15,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "baseUrl": "src",
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
   },
   "include": ["src", "./index.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
